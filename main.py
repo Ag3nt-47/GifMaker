@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Take list of paths for images
-image_path_list = ['500-1.jpg', '500-2.jpg', '500-3.jpg']
+image_path_list = ['img1.jpg', 'img2.jpg', 'img3.jpg']
 
 # Create a list of image objects
 image_list = [Image.open(file) for file in image_path_list]
